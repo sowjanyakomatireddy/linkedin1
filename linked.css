@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+    width: 100vw;
+}
+nav{
+    height: 80px;
+    background-color:white;
+    width: 100vw;
+}
+section{
+    display: flex;
+}
+img{
+    height: 30px;
+    width: 90px;
+}
+#link{
+    height: 65px;
+    width: 120px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+#sec1{
+    position: relative;
+    bottom: 67px;
+    right: 45px;
+}
+#sec2{
+    position: relative;
+    bottom: 93px;
+    left: 195px;
+}
+#art{
+    position: relative;
+    left: 800px;
+    top: 35px;
+    width: 25px;
+    color: #757575;
+    filter: opacity(0.5);
+}
+#art:hover,#peop:hover,#vid:hover,#job:hover{
+    filter: opacity(1);
+}
+#articles{
+    position: relative;
+    left: 768px;
+    top: 64px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+#peop{
+    position: relative;
+    left: 800px;
+    top: 39px;
+    width: 20px;
+    height: 20px;
+    color: #757575; 
+    filter: opacity(0.5);
+}
+
+#people{
+    position: relative;
+    left: 768px;
+    top: 64px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575; 
+}
+#vid{
+    position: relative;
+    left: 800px;
+    top: 41px;
+    width: 20px;
+    height: 20px;
+    color: #757575; 
+    filter: opacity(0.5);
+}
+#learn{
+    position: relative;
+    left: 768px;
+    top: 64px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;  
+}
+#job{
+    position: relative;
+    left: 800px;
+    top: 41px;
+    width: 20px;
+    height: 20px;
+    color: #757575; 
+   filter: opacity(0.5);
+}
+#jobs{
+    position: relative;
+    left: 776px;
+    top: 64px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;  
+}
+#one{
+    position: relative;
+    left: 790px;
+    top: 35px;
+    height: 40px;
+    width: 1px;
+    background-color:#757575;
+}
+#join{
+    position: relative;
+    left: 820px;
+    top: 30px;
+    width: 100px;
+    
+    height: 45px;
+    color: #404040; 
+    border: none;
+    font-size: 16px;
+    background-color:transparent;
+    border-radius: 20px;
+}
+ #join:hover{
+    background-color:#f5f7f9;
+ }
+ #in{
+    position: relative;
+    left: 840px;
+    top: 30px;
+    width: 90px;
+    
+    height: 45px;
+    color: #0a66c2; 
+    border-color: #0a66c2;
+    font-size: 16px;
+    background-color:transparent;
+    border-radius: 20px;
+ }
+ #in:hover{
+    background-color: #f5f7f9;
+ }
+ #div1{
+    display: flex;
+ }
+ #discover{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 530px;
+    font-size: 56px;
+    font-weight: 200;
+    color:#b2401f;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+ }
+ #email{
+    position: relative;
+    left: 150px;
+    top: 98px;
+    height: 52px;
+    width:396px;
+    border-radius: 5px;
+    color: #282828;
+    
+ }
+ #email:hover{
+    background-color:#0000000a;
+    border-color: #000000;
+ }
+ #mail{
+    position: relative;
+    left: 150px;
+    top: 90px;
+    color: #282828;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+ }
+ #pass{
+    position: relative;
+    left: 150px;
+    top: 140px;
+    height: 52px;
+    width:396px;
+    border-radius: 5px;
+    color: #282828;
+ }
+ #pass:hover{
+    background-color:#0000000a;
+    border-color: #000000;
+ }
+ #password{
+    position: relative;
+    left: 150px;
+    top: 130px;
+    color: #282828;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+ }
+ #show{
+    position: relative;
+    left: 490px;
+    top: 105px;
+    color: #0b66c2;
+    font-size: 16px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+   
+}
+#an{
+    position: relative;
+    left: 150px;
+    top: 145px;  
+    text-decoration: none;
+    font-size: 16px;
+   color: #0b66c2;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+#an:hover{
+text-decoration: underline;
+color:#5d3d7f;;
+}
+#btn1{
+  
+    position: relative;
+    left: 20px;
+    top: 205px; 
+    height: 50px;
+    width: 380px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: #0b66c2;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+#two{
+    position: relative;
+    left: 160px;
+    width: 150px;
+    top: 235px;
+    height: 1px;
+   
+    background-color:#757575;
+}
+#or{
+    position: relative;
+    left: 330px;
+   color: #191919;
+    top: 224px;
+ 
+}
+#three{
+    position: relative;
+    left: 360px;
+    width: 150px;
+    top: 215px;
+    height: 1px;
+    background-color:#757575;
+   
+}
+#by{
+    position: relative;
+    left:160px;
+    width: 350px;
+    top: 255px; 
+    font-size: 12px;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+    color:#757575 ;
+    font-weight: 400;
+}
+#user{
+    position: relative;
+    left:385px;
+    width: 350px;
+    top: 237px;  
+    font-size: 12px;
+    text-decoration: none;
+    color: #0b66c2;
+}
+#user:hover{
+    text-decoration: underline;
+}
+#privacy{
+    position: relative;
+    left:74px;
+    width: 350px;
+    top: 255px;  
+    font-size: 12px;
+    text-decoration: none;
+    color: #0b66c2; 
+}
+#privacy:hover{
+    text-decoration: underline;
+}
+#and{
+    position: relative;
+    left:230px;
+    width: 350px;
+    top: 240px; 
+    font-size: 12px;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+    color:#757575 ;
+    font-weight: 400; 
+}
+#cookie{
+    position: relative;
+    left:264px;
+    width: 350px;
+    top: 208px;  
+    font-size: 12px;
+    text-decoration: none;
+    color: #0b66c2; 
+}
+#cookie:hover{
+    text-decoration: underline;
+}
+#btn2{
+   
+    
+    position: relative;
+   
+    top: 280px; 
+    height: 50px;
+    left: 57px;
+    width: 380px;
+    border-radius: 24px;
+    text-align: center;
+  color: #3c4043;
+  background-color: white;
+  border-color:#666666;
+  font-family: "Google Sans",arial,sans-serif;
+  font-weight: 500;
+}
+#google{
+    position: relative;
+    top: 286px;
+    left: 178px;
+    height: 23px;
+    width: 20px;
+    z-index: 1;
+}
+#btn2:hover{
+    background-color: #a7bccc20;
+}
+#btn3{
+    position: relative;
+   
+    top: 370px; 
+    height: 50px;
+    right: 327px;
+    width: 380px;
+    border-radius: 24px;
+    text-align: center;
+  color: #3c4043;
+  background-color: white;
+  border-color:#666666;
+  font-family: "Google Sans",arial,sans-serif;
+  font-weight: 500;
+}
+#btn3:hover{
+    background-color: #a7bccc20; 
+}
+#man{
+    height: 560px;
+    width: 1128px;
+    position: relative;
+    bottom: 315px;
+    left: 572px;
+}
+
